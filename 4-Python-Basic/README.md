@@ -1,5 +1,6 @@
 # **Khipus.ai**
-#  **Data Science Tools**
+
+# **Data Science Tools**
 
 # How to export of a Jupyter notebook to PDF in Visual Studio Code
 
@@ -10,8 +11,8 @@ This guide explains how to export of a Jupyter notebook to PDF in Visual Studio 
 ## Export Jupyter Notebook to PDF
 
 1. Download and install Pandoc from: https://github.com/jgm/pandoc/releases/tag/3.6.1
-![alt text](images/image-19.png)
-![alt text](images/image-20.png)
+   ![alt text](images/image-19.png)
+   ![alt text](images/image-20.png)
 
 2. Download and install MikTeX: https://miktex.org/download
 
@@ -19,26 +20,27 @@ This guide explains how to export of a Jupyter notebook to PDF in Visual Studio 
 ![alt text](images/image-8.png)
 ![alt text](images/image-9.png)
 ![alt text](images/image-10.png)
-![alt text](images/image-11.png)
+![alt text](images /image-11.png)
 ![alt text](images/image-12.png)
 ![alt text](images/image-13.png)
 ![alt text](images/image-17.png)
 ![alt text](images/image-18.png)
 
 3. Verify Installations
-Run the following commands in a terminal to verify that both tools are installed correctly:
+   Run the following commands in a terminal to verify that both tools are installed correctly:
    ```bash
    pandoc --version
    ```
 
 ![alt text](images/image-21.png)
 
-   ```bash
-   xelatex --version
-   ```
+```bash
+xelatex --version
+```
+
 ![alt text](images/image-22.png)
 
-4. Open your Jupyter notebook in Visual Studio Code. If you already have Visual Studio Code open, close it and then reopen it. 
+4. Open your Jupyter notebook in Visual Studio Code. If you already have Visual Studio Code open, close it and then reopen it.
 
 5. Run all cells to ensure the notebook is up-to-date.
 
@@ -51,18 +53,15 @@ Select "Export": From the dropdown menu that appears, the user clicks on the Exp
 ![alt text](images/image-40.png)
 ![alt text](images/image-41.png)
 
-
-5. Save the notebook 
+5. Save the notebook
 
 ![alt text](images/image-42.png)
-
 
 6. Install the missing packages.
 
 ![alt text](images/image-23.png)
 
 7. You should see a message in the left corner that says your file is being exported as a PDF file:
-
 
 ![alt text](images/image-24.png)
 
@@ -72,28 +71,26 @@ Note: The first time, the process will take about 5 minutes or more, depending o
 
 8. You have your pdf file ready:
 
-
 ![alt text](images/image-26.png)
 
-## Upload the PDF file to the Khipus.ai Virtual Campus: 
+## Upload the PDF file to the Khipus.ai Virtual Campus:
 
 1. Logs into the Khipus.ai platform using your credentials https://campus.khipus.ai/login/index.php
 
 ![alt text](images/image-48.png)
 
-2. Navigate to the "Actividades" (Activities) section under "Unidad 3: Introducción a Python" and select the "Trabajo práctico Unidad 3" 
-![alt text](images/image-43.png)
-
+2. Navigate to the "Actividades" (Activities) section under "Unidad 3: Introducción a Python" and select the "Trabajo práctico Unidad 3"
+   ![alt text](images/image-43.png)
 
 3. Click "Agregar entrega" (Add Submission) button to start the process of submitting the assignment.
-![alt text](images/image-44.png)
-![alt text](image-45.png)
+   ![alt text](images/image-44.png)
+   ![alt text](image-45.png)
 
 4. "Choose File" and selects the PDF file
 
 ![alt text](images/image-29.png)
 
 5. Finally, confirm the submission by clicking the "Guardar cambios"
-![alt text](images/image-30.png)
+   ![alt text](images/image-30.png)
 
 ![alt text](images/image-31.png)
